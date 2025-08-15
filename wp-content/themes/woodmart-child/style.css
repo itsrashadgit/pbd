@@ -1,0 +1,123 @@
+/**
+ * Theme Name: Woodmart Child
+ * Theme URI: https://princebd.shop
+ * Author: inRashad
+ * Author URI: https://aromait.com
+ * Description: Woodmart Child Theme
+ * Template: woodmart
+ * Version: 1.0.0
+ * Tested up to: 5.4
+ * Requires PHP: 5.6
+ * License: GNU General Public License v2 or later
+ * License URI: LICENSE
+ * Text Domain: woodmart
+ **/
+.woocommerce-notices-wrapper {
+	width: 93%;
+	margin: 0 auto
+}
+.pbd-submit-order .payment_methods, .pbd-submit-order .woocommerce-privacy-policy-text {
+	display: none;
+}
+.elementor-1646, .elementor-1101, .elementor-element-e242c88 {
+	display: none;
+}
+.elementor-element-1560502 {
+	display: none;
+}
+#billing_country_field {
+	text-align: center;
+}
+#billing_country_field label {
+	display: block;
+}
+.pbd-checkout .woocommerce-billing-fields label {
+	display: none;
+}
+
+/* PBD Custom Footer CSS */
+.footer {
+	padding: 20px;
+}
+.footer a {
+	color: #fdfdfd;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.footer a:hover {
+	text-decoration: underline;
+	color: #ffcc00;
+}
+.footer-logo img,
+.social-buttons img,
+.store-buttons img,
+.payment-logo img {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+.footer-logo img {
+	max-width: 100px;
+	height: auto;
+	border-radius: 12px;
+}
+.contact-info p {
+	margin: 5px 0;
+}
+.footer-links ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-links li {
+	margin: 6px 0;
+}
+.footer-quick-links ul {
+	padding-left: 0;
+}
+.footer-quick-links ul li {
+	list-style: none;
+}
+.footer-links h2 {
+	color: #f1f1f1
+}
+.store-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.store-buttons img {
+  height: 40px;
+  width: auto;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 6px; /* এখানে margin-top যোগ করা হয়েছে */
+}
+
+.social-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fb9533;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.social-buttons img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.social-buttons img:hover {
+  transform: scale(1.1);
+}
+.payment-logo img {
+	width: 200px;
+	margin-top: 20px;
+}
